@@ -427,7 +427,13 @@
   transform: scale(1.1);
 }
 /*Gallery ends here  */
-
+.submitbut{
+  margin-bottom:4.6rem;
+}
+header{
+  padding-bottom: 1rem;
+  padding-left: 0rem;
+}
 /* ABOUT CSS START */
 .about-us {
   padding: 50px;
@@ -441,8 +447,9 @@
     color: #000;
     margin-bottom: 10px;
     text-align: justify; }
+    
   .about-us .image img {
-    margin-top: 100px;
+    margin-top: 3.5rem;
     margin-left: 200px;
      }
   /* ABOUT CSS ENDS */
