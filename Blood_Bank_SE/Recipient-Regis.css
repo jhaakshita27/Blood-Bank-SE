@@ -354,7 +354,8 @@ form {
     }
 	.col_half {
 		width: 50%;
-		float: left;
+		float: right;
+    padding: 20px;
 	}
 	.input_field {
 		position: relative;
@@ -371,15 +372,15 @@ form {
         height: 100%;
         border-right: 1px solid #cccccc;
         text-align: center;
-        width: 30px;
+        width: 20px;
     }
-    .input_field span i {
+  .input_field span i {
         padding-top: 10px;
     }
 	.textarea_field span i {
         padding-top: 10px;
     }
-	input [type="text"], [type="email"], [type="password"] {
+	.C1{
       width: 100%;
       padding: 8px 10px 9px 35px;
       height: 35px;
@@ -391,21 +392,25 @@ form {
       -ms-transition: all 0.30s ease-in-out;
       transition: all 0.30s ease-in-out;
     }
-    input [type="text"]:hover, [type="email"]:hover, [type="password"]:hover {
+    /* input [type="text"]:hover, [type="email"]:hover, [type="password"]:hover */
+    .C1{
       background: #fafafa;
     }
-    input [type="text"]:focus, [type="email"]:focus, [type="password"]:focus {
+    .C1 {
       -webkit-box-shadow: 0 0 2px 1px rgba(251, 255, 0, 0.5);
       -moz-box-shadow: 0 0 2px 1px rgba(255, 238, 0, 0.5);
       box-shadow: 0 0 2px 1px rgba(255, 217, 0, 0.5);
       border: 1px solid #f5ba1a;
       background: #fafafa;
+      width: 200px;
+      padding: 50px;
     }
-    input [type="submit"] {
+    /* input*/ .button { 
 		background: #f5ba1a;
 		height: 35px;
 		line-height: 35px;
-		width: 100%;
+		width: 200px;
+    margin-left: 50px;
 		border: none;
 		outline: none;
 		cursor: pointer;
@@ -417,13 +422,13 @@ form {
 		-ms-transition: all 0.30s ease-in-out;
 		transition: all 0.30s ease-in-out;
     }
-	   input [type="submit"]:hover {
+	   .button:hover {
 			background: darken(#f5ba1a,7%);
 		}
-		input [type="submit"]:focus {
+		.button:focus {
 			background: darken(#f5ba1a,7%);
 		}  
-    input [type="checkbox"], [type="radio"] {
+  /* .checkbox_option {
       border: 0;
       clip: rect(0 0 0 0);
       height: 1px;
@@ -431,8 +436,8 @@ form {
       overflow: hidden;
       padding: 0;
       position: absolute;
-      width: 1px;
-    }
+      width: 1px; 
+    } */
 .form_container .row .col_half.last{
 	 border-left: 1px solid #cccccc;
 }
@@ -441,7 +446,7 @@ form {
         position: relative;
        
     }
-    .checkbox_option label :before {
+ .checkbox_option label :before {
         content: "";
         display: inline-block;
         width: 0.5em;
@@ -484,15 +489,15 @@ form {
         border-color: #000000;
       }
     
-.radio_option  label {
+/* .radio_option  label {
  
       margin-right: 1em;
 }
 .radio_option  :before {
       content: "";
       display: inline-block;
-      width: 0.5em;
-      height: 0.5em;
+      width: 1.2em;
+      height: 1.2em;
       margin-right: 0.5em;
       border-radius: 100%;
       vertical-align: -3px;
@@ -500,8 +505,8 @@ form {
       padding: 0.15em;
       background-color: transparent;
       background-clip: content-box;
-      transition: all 0.2s ease;
-    }
+      transition:  0.2s ease;
+    } */
 
   input :hover , label:before {
       border-color: #000000;
