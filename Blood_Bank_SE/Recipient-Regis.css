@@ -397,10 +397,10 @@ form {
       background: #fafafa;
     }
     .C1 {
-      -webkit-box-shadow: 0 0 2px 1px rgba(251, 255, 0, 0.5);
-      -moz-box-shadow: 0 0 2px 1px rgba(255, 238, 0, 0.5);
-      box-shadow: 0 0 2px 1px rgba(255, 217, 0, 0.5);
-      border: 1px solid #f5ba1a;
+      -webkit-box-shadow: 0 0 2px 1px rgba(29, 29, 18, 0.5);
+      -moz-box-shadow: 0 0 2px 1px rgba(248, 237, 237, 0.527);
+      box-shadow: 0 0 2px 1px rgba(243, 240, 226, 0.5);
+      border: 1px solid #f7f3ea;
       background: #fafafa;
       width: 200px;
       padding: 50px;
