@@ -16,3 +16,12 @@ $("#search").on("keyup", function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
+
+  // $("p").click(function(event) {
+  //        alert("Thank you for subscribing!");
+  //        $("p").css("color","purple");
+  // });
+  $(".newsb").click(function(event) {
+    alert("Thank you for subscribing!");
+});
+// alert("Welcome");

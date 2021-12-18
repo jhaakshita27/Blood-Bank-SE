@@ -320,7 +320,7 @@ form {
   margin: 8% auto 0;
   position: relative;
   z-index: 1;
-  border-top: 5px solid #f5ba1a;
+  border-top: 5px solid #1a8bf5;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -363,6 +363,9 @@ form {
   width: 50%;
   float: left;
 }
+.form_wrapper .clearfix{
+  padding-left: 75px;
+}
 .form_wrapper .input_field {
   position: relative;
   margin-bottom: 20px;
@@ -401,14 +404,14 @@ form {
   background: #fafafa;
 }
 .form_wrapper input[type="text"]:focus, .form_wrapper input[type="email"]:focus, .form_wrapper input[type="password"]:focus {
-  -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
-  -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
-  box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
-  border: 1px solid #f5ba1a;
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 140, 255, 0.5);
+  -moz-box-shadow: 0 0 2px 1px rgba(0, 162, 255, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 153, 255, 0.5);
+  border: 1px solid #1a8bf5;
   background: #fafafa;
 }
 .form_wrapper input[type="submit"] {
-  background: #f5ba1a;
+  background: #0a92e1;
   height: 35px;
   line-height: 35px;
   width: 100%;
@@ -424,10 +427,10 @@ form {
   transition: all 0.3s ease-in-out;
 }
 .form_wrapper input[type="submit"]:hover {
-  background: #e1a70a;
+  background: #0a92e1;
 }
 .form_wrapper input[type="submit"]:focus {
-  background: #e1a70a;
+  background: #0a60e1;
 }
 .form_wrapper input[type="checkbox"], .form_wrapper input[type="radio"] {
   border: 0;
